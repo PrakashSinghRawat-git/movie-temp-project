@@ -25,7 +25,7 @@ const Navbar = () => {
                         id="navbar-multi-level"
                     >
                         <ul className="min-w-[200px] sm:min-w-[300px] flex font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse  flex-row md:mt-0 md:border-0 md: bg-gray-800 md:bg-gray-900 border-gray-700">
-                            <li className="flex md:order-2">
+                            <li className="flex min-w-[50px]">
                                 <button
                                     type="button"
                                     data-collapse-toggle="navbar-search"
@@ -116,7 +116,7 @@ const Navbar = () => {
                                     data-dropdown-toggle="dropdownNavbar"
                                     className="flex items-center justify-between w-full py-2 px-3  md:border-0  md:p-0 md:w-auto text-white md:hover:text-blue-500 focus:text-white hover:bg-gray-700 md:hover:bg-transparent"
                                 >
-                                    Categories &nbsp;
+                                    Categories&nbsp;
                                     <svg
                                         className="w-2.5 h-2.5 ms-2.5"
                                         aria-hidden="true"
