@@ -25,7 +25,7 @@ const Navbar = () => {
                         id="navbar-multi-level"
                     >
                         <ul className="min-w-[200px] sm:min-w-[300px] flex font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse  flex-row md:mt-0 md:border-0 md: bg-gray-800 md:bg-gray-900 border-gray-700">
-                            <li className="flex min-w-[100px]">
+                            <li className="flex min-w-[120px]">
                                 <button
                                     type="button"
                                     data-collapse-toggle="navbar-search"
