@@ -1,7 +1,10 @@
+"use client";
 import Link from "next/link";
 import { useState } from "react";
 
 const Navbar = () => {
+    const [isDropdownOpen, setIsDropdownOpen] = useState(false);
+
     return (
         <nav className="bg-gray-700">
             <div className="bg-white border-gray-200 dark:bg-gray-900 dark:border-gray-700">
