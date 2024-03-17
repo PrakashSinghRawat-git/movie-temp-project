@@ -24,7 +24,7 @@ const Navbar = () => {
                         className=" w-full  block md:w-auto"
                         id="navbar-multi-level"
                     >
-                        <ul className=" sm:min-w-[300px] flex font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse  flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+                        <ul className="min-w-[200px] sm:min-w-[300px] flex font-medium p-4 md:p-0 mt-4 border border-gray-100 rounded-lg bg-gray-50 md:space-x-8 rtl:space-x-reverse  flex-row md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
                             <li
                                 onClick={() => {
                                     setIsDropdownOpen(!isDropdownOpen);
@@ -33,7 +33,7 @@ const Navbar = () => {
                                 <button
                                     id="dropdownNavbarLink"
                                     data-dropdown-toggle="dropdownNavbar"
-                                    className="flex items-center justify-between w-full py-2 px-3 text-gray-900 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
+                                    className="flex items-center justify-between w-full py-2 px-3 text-gray-200 hover:bg-gray-100 md:hover:bg-transparent md:border-0 md:hover:text-blue-700 md:p-0 md:w-auto dark:text-white md:dark:hover:text-blue-500 dark:focus:text-white dark:hover:bg-gray-700 md:dark:hover:bg-transparent"
                                 >
                                     Categories &nbsp;
                                     <svg
@@ -59,7 +59,7 @@ const Navbar = () => {
                                         className="z-10 absolute font-normal bg-white divide-y divide-gray-100 rounded-lg shadow w-44 dark:bg-gray-700 dark:divide-gray-600"
                                     >
                                         <ul
-                                            className="py-2 text-sm text-gray-700 dark:text-gray-200"
+                                            className="py-2 text-sm   text-gray-200"
                                             aria-labelledby="dropdownLargeButton"
                                         >
                                             <li>
@@ -108,10 +108,10 @@ const Navbar = () => {
                                 )}
                             </li>
 
-                            <li className="md:min-w-[75px] mx-auto ">
+                            <li className="md:min-w-[75px] mx-auto text-white ">
                                 <Link
                                     href="/login"
-                                    className="block py-2 px-3 text-neutral-200 rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0   md:p-0   dark:hover:bg-gray-700   md:dark:hover:bg-transparent"
+                                    className="block py-2 px-3 text-white rounded hover:bg-gray-100 md:hover:bg-transparent md:border-0   md:p-0   dark:hover:bg-gray-700   md:dark:hover:bg-transparent"
                                 >
                                     Log In
                                 </Link>
