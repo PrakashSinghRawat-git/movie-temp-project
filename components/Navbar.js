@@ -65,7 +65,7 @@ const Navbar = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    className="block px-4 py-2 hover:bg-gray-600 hover:text-white"
+                                                    className="block px-4 py-2  bg-gray-600  text-white"
                                                 >
                                                     Movies
                                                 </a>
@@ -74,7 +74,7 @@ const Navbar = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    className="block px-4 py-2 hover:bg-gray-600 hover:text-white"
+                                                    className="block px-4 py-2 bg-gray-600 text-white"
                                                 >
                                                     Web Series
                                                 </a>
@@ -82,7 +82,7 @@ const Navbar = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    className="block px-4 py-2 hover:bg-gray-600 hover:text-white"
+                                                    className="block px-4 py-2 bg-gray-600 text-white"
                                                 >
                                                     Dramas{" "}
                                                 </a>
@@ -90,7 +90,7 @@ const Navbar = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    className="block px-4 py-2 hover:bg-gray-600 hover:text-white"
+                                                    className="block px-4 py-2 bg-gray-600 text-white"
                                                 >
                                                     Latest Release
                                                 </a>
@@ -98,9 +98,17 @@ const Navbar = () => {
                                             <li>
                                                 <a
                                                     href="#"
-                                                    className="block px-4 py-2 hover:bg-gray-600 hover:text-white"
+                                                    className="block px-4 py-2 bg-gray-600 text-white"
                                                 >
                                                     Most Watched
+                                                </a>
+                                            </li>
+                                            <li>
+                                                <a
+                                                    href="#"
+                                                    className="block px-4 py-2 bg-gray-600 text-white"
+                                                >
+                                                    Favourites
                                                 </a>
                                             </li>
                                         </ul>
