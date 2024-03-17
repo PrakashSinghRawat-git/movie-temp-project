@@ -16,14 +16,14 @@ const Movie = ({ movie }) => {
                     alt={movie.title}
                 />
                 <h1 className="font-bold text-xl my-2">{movie.title}</h1>
-                <p className="text-gray-600 text-sm mt-4">{movie.overview}</p>
-                <p className="mt-5 text-gray-600 text-sm">
+                <p className="text-gray-200 text-sm mt-4">{movie.overview}</p>
+                <p className="mt-5 text-gray-200 text-sm">
                     Genres:{" "}
                     <span className="font-bold">
                         {movie.genres.map((genre) => genre.name).join(", ")}
                     </span>
                 </p>
-                <p className="text-gray-600 text-sm">
+                <p className="text-gray-200 text-sm">
                     Release Date:{" "}
                     <span className="font-bold">{movie.release_date}</span>
                 </p>
