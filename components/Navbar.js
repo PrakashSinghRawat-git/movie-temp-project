@@ -20,40 +20,33 @@ const Navbar = () => {
                         </div>
                     </Link>
 
-                    <div
-                        className=" w-full  block md:w-auto"
-                        id="navbar-multi-level"
-                    >
-                        <ul className="min-w-[200px] sm:min-w-[300px] flex font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse  flex-row md:mt-0 md:border-0 md: bg-gray-800 md:bg-gray-900 border-gray-700">
-                            <li className="flex justify-start items-center py-7 relative">
+                    <div className=" w-full  block " id="navbar-multi-level">
+                        <ul className="min-w-[800px] flex font-medium p-4 md:p-0 mt-4 border  rounded-lg  md:space-x-8 rtl:space-x-reverse  flex-row md:mt-0 md:border-0 md: bg-gray-800 md:bg-gray-900 border-gray-700">
+                            <li className="flex relative  gap-5">
+                                <div className="absolute inset-y-0 start-0 flex items-center ps-3 pointer-events-none">
+                                    <svg
+                                        className="w-4 h-4  text-gray-400"
+                                        aria-hidden="true"
+                                        xmlns="http://www.w3.org/2000/svg"
+                                        fill="none"
+                                        viewBox="0 0 20 20"
+                                    >
+                                        <path
+                                            stroke="currentColor"
+                                            strokeLinecap="round"
+                                            strokeLinejoin="round"
+                                            strokeWidth={2}
+                                            d="m19 19-4-4m0-7A7 7 0 1 1 1 8a7 7 0 0 1 14 0Z"
+                                        />
+                                    </svg>
+                                    <span className="sr-only">Search icon</span>
+                                </div>
                                 <input
-                                    className="text-sm leading-none text-left text-gray-600 px-4 py-3 w-full border rounded border-gray-300 outline-none"
                                     type="text"
-                                    placeholder="Search"
+                                    id="search-navbar"
+                                    className="block  w-full p-2 ps-12 text-sm  border   rounded-lg     bg-gray-700 border-gray-600 placeholder-gray-400 text-white focus:ring-blue-500 focus:border-blue-500"
+                                    placeholder="Search..."
                                 />
-                                <svg
-                                    className="absolute right-3 z-10 cursor-pointer"
-                                    width={24}
-                                    height={24}
-                                    viewBox="0 0 24 24"
-                                    fill="none"
-                                    xmlns="http://www.w3.org/2000/svg"
-                                >
-                                    <path
-                                        d="M10 17C13.866 17 17 13.866 17 10C17 6.13401 13.866 3 10 3C6.13401 3 3 6.13401 3 10C3 13.866 6.13401 17 10 17Z"
-                                        stroke="#4B5563"
-                                        strokeWidth="1.66667"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                    <path
-                                        d="M21 21L15 15"
-                                        stroke="#4B5563"
-                                        strokeWidth="1.66667"
-                                        strokeLinecap="round"
-                                        strokeLinejoin="round"
-                                    />
-                                </svg>
                             </li>
 
                             <li
